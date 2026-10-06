@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATNT - Contact | Association Thangba N’touon</title>
+  <meta name="description" content="Contactez l’Association Thangba N’touon à Gaoua : formulaire, téléphone, email.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/image9.png" alt="Logo Association Thangba N’touon" class="logo-img">
+        <div class="logo-text">
+          <span>Association Thangba N’touon</span>
+          <small>Gaoua • Femmes & Savoir-faire</small>
+        </div>
+      </a>
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="apropos.html" class="nav-link">À propos</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+      <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-contact">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="hero-kicker">Restons en contact</p>
+        <h1>Contactez-nous</h1>
+        <p class="hero-sub">Une question, une commande ou un partenariat ? Écrivez-nous.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <span class="tag">Coordonnées</span>
+          <h2>Nos informations</h2>
+          <ul class="contact-list">
+            <li><strong>Téléphone :</strong> <a href="tel:67383843">67 38 38 43</a> / <a href="tel:63585206">63 58 52 06</a></li>
+            <li><strong>Email :</strong> <a href="mailto:ampsie@gmail.com">ampsie@gmail.com</a></li>
+            <li><strong>Adresse :</strong> Gaoua, Burkina Faso</li>
+            <li><strong>Présidente :</strong> Hélène PODA/Kambou</li>
+          </ul>
+          <a href="https://wa.me/22667383843" class="btn btn-primary" target="_blank" rel="noopener">Discuter sur WhatsApp</a>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <h2>Envoyez un message</h2>
+          <div class="form-group">
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" required placeholder="Votre nom">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="votre@email.com">
+          </div>
+          <div class="form-group">
+            <label for="subject">Sujet</label>
+            <input type="text" id="subject" name="subject" required placeholder="Sujet de votre message">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Votre message..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+          <p class="form-feedback" id="formFeedback" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Association Thangba N’touon</h3>
+        <p>Association féminine basée à Gaoua, œuvrant pour l’autonomisation des femmes et la promotion des produits locaux depuis 2016.</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="tel:67383843">📞 67 38 38 43</a></li>
+          <li><a href="tel:63585206">📞 63 58 52 06</a></li>
+          <li><a href="mailto:ampsie@gmail.com">✉️ ampsie@gmail.com</a></li>
+          <li>📍 Gaoua, Burkina Faso</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Réseaux sociaux</h3>
+        <ul class="socials">
+          <li><a href="#" aria-label="Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="WhatsApp">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Association Thangba N’touon (ATNT). Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/22667383843" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
